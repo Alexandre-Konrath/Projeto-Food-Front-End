@@ -1,0 +1,24 @@
+
+.produto-box {
+  border: 1px solid var(--borderWhite);
+  border-radius: 18px;
+  max-width: 240px;
+  padding: 10px 10px 20px 10px;
+  display: inline-block;
+  margin: 30px;
+}
+.produto-box h2 {
+  font-size: 1.3rem;
+}
+
+.prod-vitrine-desclicao {
+  color: var(--grey100);
+  font-size: 1rem;
+}
+
+.prod-vitrine-preco {
+  color: var(--red2);
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
