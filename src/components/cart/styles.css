@@ -1,0 +1,25 @@
+.lista-produtos{
+  height: calc(100% - 258px);
+  margin-right: 10px;
+  overflow: auto;
+}
+
+.footer-cart{
+  margin-top: 20px;
+  border-top: 2px solid var(--gray);
+}
+
+.footer-cart-valor{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.cart-btn-close{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 32px;
+  cursor: pointer;
+}
