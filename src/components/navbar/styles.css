@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    height: 150px;
+
+    background-size: contain;
+    background-repeat: repeat-x;
+
+    background-image: url("../../assets/bg-navbar.png");
+}
+
+.logotipo{
+    max-width: 100px;
+    width: 12%;
+    padding: 10px 10px 10px 20px;
+}
+
+.menu{
+    float: right;
+
+    padding: 10px 25px;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-right: 25px;
+
+    color: var(--black);
+    transition: 0.3s color;
+}
+
+.menu a:hover{
+    color: var(--redHover100);
+}
+
+.icon-quantidade {
+    position: absolute;
+    top: 1px;
+    right: 12px;
+
+    background-color: var(--orange);
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: var(--whith);
+}
